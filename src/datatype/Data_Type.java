@@ -20,5 +20,8 @@ public class Data_Type {
         double perc = 67.89d;
         System.out.println(perc);
 
+
+
     }
+
 }
