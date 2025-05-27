@@ -1,4 +1,4 @@
-package datatype;
+package com.datatype;
 
 class Mobile{
     int camera = 67;
