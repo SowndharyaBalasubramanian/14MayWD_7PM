@@ -6,7 +6,7 @@ public class Decision_Making {
     public static void main(String[] args){
 
         Scanner s = new Scanner(System.in);
-        System.out.println("Please enter your mark");
+        System.out.println("Please enter your marks");
 
         int marks = s.nextInt();
 
