@@ -1,0 +1,20 @@
+package com.control;
+
+import java.util.Scanner;
+
+public class Decision_Making {
+    public static void main(String[] args){
+
+        Scanner s = new Scanner(System.in);
+        System.out.println("Please enter your mark");
+
+        int mark = s.nextInt();
+
+        if ( mark >35){
+            System.out.println("pass mark");
+        }else{
+            System.out.println("fail mark");
+        }
+    }
+
+}
