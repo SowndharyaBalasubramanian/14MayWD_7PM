@@ -8,9 +8,9 @@ public class Decision_Making {
         Scanner s = new Scanner(System.in);
         System.out.println("Please enter your mark");
 
-        int mark = s.nextInt();
+        int marks = s.nextInt();
 
-        if ( mark >35){
+        if ( marks >35){
             System.out.println("pass mark");
         }else{
             System.out.println("fail mark");
