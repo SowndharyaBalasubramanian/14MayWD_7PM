@@ -13,7 +13,7 @@ public class Logical_Operators {
 
 
         //OR operator (||
-        int num1 = 6; int num2 = 7;
+        int num1 = 6; int num2 = 17;
 //        System.out.println((num1 > 5) || (num2 <9));    // true || true      true
 //        System.out.println((num1 < 5) || (num2 > 9));   // false || false    false
 //        System.out.println((num1 < 5) || (num2 <9));    // false || true         true
