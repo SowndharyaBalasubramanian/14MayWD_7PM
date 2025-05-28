@@ -14,7 +14,7 @@ public class Nested_If {
             }
         }
         else{
-            System.out.println("not eligible to vote");
+            System.out.println("not eligible to vote ");
         }
     }
 }

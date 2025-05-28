@@ -17,7 +17,6 @@ public class IfElse_Ladder {
             System.out.println("Teenager");
         } else if (age >= 20 && age <= 40) {
             System.out.println("Adult");
-
         } else if (age>40 && age <=55) {
             System.out.println("Not a senior citizen");
         }else {

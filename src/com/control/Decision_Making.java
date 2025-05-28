@@ -16,7 +16,7 @@ public class Decision_Making {
 //            System.out.println("fail mark");
 //        }
 
-        if(marks > 35)
+        if(marks >= 35)
             System.out.println("pass mark");
     }
 
