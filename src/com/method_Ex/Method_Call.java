@@ -11,14 +11,14 @@ public class Method_Call {
         object.instaMethod1();
     }
 
-    public void instaMethod(){
-        System.out.println("this is an instance method");
-    }
+//    public void instaMethod(){
+//        System.out.println("this is an instance method");
+//    }
 
     public static void example(){
         System.out.println("this is an example method");
-        //Method_Call object = new Method_Call();
-       // object.instaMethod1();
+        Method_Call object = new Method_Call();
+       object.instaMethod1();
     }
 
     public void instaMethod1(){

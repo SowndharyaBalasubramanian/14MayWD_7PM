@@ -7,7 +7,7 @@ public class Example1 {
 
        // example();
         Method_Call.example();
-        Method_Call ex= new Method_Call();
-        ex.instaMethod();
+//        Method_Call ex= new Method_Call();
+//        ex.instaMethod();
     }
     }

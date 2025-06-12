@@ -1,4 +1,5 @@
 package com.control;
+import com.method_Ex.Method_Call;
 
 public class Switch {
     public static void main(String[] args){
@@ -31,5 +32,7 @@ public class Switch {
             default:
                 System.out.println("please enter a valid day");
         }
+
+
     }
 }

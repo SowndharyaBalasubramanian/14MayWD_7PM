@@ -1,4 +1,7 @@
 package com.introduction;
+
+import com.method_Ex.Method_Call;
+
 public class Introduction {
     public static void main(String[] args){
         System.out.println("Welcome to Java class");
@@ -7,6 +10,8 @@ public class Introduction {
         System.out.println(54);
         System.out.print("Besant");
         System.out.println("Sowndharya");
+
+        Method_Call.example();
 
 //       Welcome
         //21true
