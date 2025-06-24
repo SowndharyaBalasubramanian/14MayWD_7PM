@@ -30,4 +30,8 @@ public class Array_Intro {
     }
 }
 
+//find largest number in an array
+//find second largest number in an array
+//find smallest number in an array
+
 
