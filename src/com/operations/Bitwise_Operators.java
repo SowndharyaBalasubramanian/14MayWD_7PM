@@ -13,5 +13,27 @@ public class Bitwise_Operators {
 
         //exclusively OR  (XOR)
         System.out.println(a^b);
+
+        System.out.println(~a);
+
+        int c = 4;
+        System.out.println(~c);
+        System.out.println("Binary digits : " + Integer.toBinaryString(~c));
+
+        //- (14+1) = -15
+
+        //shift operator
+
+        //left shift
+
+        System.out.println(a << 1);
+        System.out.println(a << 3);
+
+        int d = -4;
+
+
+
     }
 }
+
+
