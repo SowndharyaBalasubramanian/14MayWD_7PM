@@ -31,4 +31,14 @@ public class String_Methods{
 
 
   }
+
+    public static class StringBuffer_Ex {
+        public static void main(String[] args){
+            StringBuffer sbr = new StringBuffer("Good");  //heap memory
+            sbr.append(" Evening");
+            System.out.println(sbr);
+
+            //safe in muti thread scenarios
+        }
+    }
 }
