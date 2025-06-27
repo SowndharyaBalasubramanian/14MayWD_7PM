@@ -18,9 +18,11 @@ public class Bitwise_Operators {
 
         int c = 4;
         System.out.println(~c);
-        System.out.println("Binary digits : " + Integer.toBinaryString(~c));
+        System.out.println(-c);
 
-        //- (14+1) = -15
+        //- (14+1) = -15 => ~c
+        //-c = ~c+1
+
 
         //shift operator
 
@@ -30,9 +32,29 @@ public class Bitwise_Operators {
         System.out.println(a << 3);
 
         int d = -4;
+        System.out.println(d << 2);
 
+//right
 
+        //signed
 
+        int e = 6;
+        System.out.println(e >> 1);
+        System.out.println(e >> 2);
+
+        int f = -6;
+        System.out.println( f >> 1);
+        System.out.println(f >> 2);
+
+        //unsigned
+
+        int g = 6;
+        System.out.println(g >>> 1);
+        System.out.println( g >>> 2);
+
+        int h = -6;
+        System.out.println(h >>> 1);
+      System.out.println( h >>> 2);
     }
 }
 
