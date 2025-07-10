@@ -23,6 +23,7 @@ public class Array_Intro {
         age[0] =34;
         age[1] = 67;
         age[2] = 56;
+        System.out.println(age[6]);
 
         System.out.println(Arrays.toString(age));
         // age[4] = 100;
