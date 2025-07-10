@@ -16,10 +16,13 @@ public class Exception_Handling_Ex1 {
             System.out.println(c);
         }catch (ArithmeticException ex){
             System.out.println(ex);
+            throw new ArithmeticException("division by zero");  //rethrowing the exception
         }finally {
             System.out.println("I am from finally block");
+            System.out.println("closing the file");
         }
 
-      //  System.out.println("I am finished the execution");
+      System.out.println("I am finished the execution");
+        System.out.println("close the file");
     }
 }
