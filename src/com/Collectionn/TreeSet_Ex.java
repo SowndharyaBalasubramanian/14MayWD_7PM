@@ -1,6 +1,7 @@
 package com.Collectionn;
 
 import java.util.LinkedHashSet;
+import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class TreeSet_Ex {
@@ -34,10 +35,13 @@ public class TreeSet_Ex {
 //        System.out.println(age.ceiling(55));
 //        System.out.println(age.ceiling(90));
 
-        System.out.println(age.headSet(45));
-        System.out.println(age.tailSet(45));
+//        System.out.println(age.headSet(45));
+//        System.out.println(age.tailSet(45));
+//
+//        System.out.println(age.subSet(25, 65));
 
-        System.out.println(age.subSet(25, 65));
+        NavigableSet<Integer> desc = age.descendingSet();
+        System.out.println(desc);
 
     }
 }
