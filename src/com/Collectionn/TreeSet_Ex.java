@@ -1,8 +1,6 @@
 package com.Collectionn;
 
-import java.util.LinkedHashSet;
-import java.util.NavigableSet;
-import java.util.TreeSet;
+import java.util.*;
 
 public class TreeSet_Ex {
     public static void main(String[]args) {
@@ -43,6 +41,11 @@ public class TreeSet_Ex {
         NavigableSet<Integer> desc = age.descendingSet();
         System.out.println(desc);
 
+        List<Integer> list = new ArrayList<>(age);
+
+        int middle = list.size()/2;
+        Integer middleEle = list.get(middle);
+        System.out.println(middleEle);
     }
 }
 
