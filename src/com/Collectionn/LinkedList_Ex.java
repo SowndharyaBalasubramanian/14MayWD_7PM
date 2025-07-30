@@ -10,6 +10,7 @@ public class LinkedList_Ex {
         courses.add("Springboot");
         courses.add("react");
 
+
         System.out.println(courses);
 
         courses.remove(3);
